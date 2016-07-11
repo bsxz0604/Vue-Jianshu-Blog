@@ -1,0 +1,89 @@
+.markdown-content p,.markdown-content ol,.markdown-content ul,.markdown-content li {
+    font-size:16px;
+    line-height:1.7;
+}
+.markdown-content blockquote,.md-preview blockquote {
+  background-color: whitesmoke;
+  border-color: #999;
+}
+.markdown-content blockquote border-left,.md-preview blockquote border-left {
+  color: #999;
+}
+.markdown-content code,.md-preview code {
+  background-color: #fae5e2;
+  color: #d96f5d;
+}
+.markdown-content pre,.md-preview pre {
+  background-color: #fae5e2;
+  color: #d96f5d;
+}
+.markdown-content a,.md-preview a {
+  color: #4094c7;
+}
+.markdown-content a:hover,.md-preview a:hover {
+  color: #075b8d;
+}
+.markdown-content ul,.md-preview ul {
+  list-style-type: disc;
+  padding-left:40px;
+}
+.markdown-content ol,.md-preview ol {
+  list-style-type: decimal;
+  padding-left:40px;
+}
+.markdown-content h1,.md-preview h1 {
+  font-size: 26px;
+}
+.markdown-content p,.md-preview p,.markdown-content ul,.md-preview ul,.markdown-content ol,.md-preview ol {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  word-break: break-word;
+}
+.markdown-content p,.md-preview p {
+  margin-bottom: 25px;
+}
+.markdown-content blockquote,.md-preview blockquote {
+  position: relative;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  word-break: break-word;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 30px;
+}
+.markdown-content blockquote p,.md-preview blockquote p {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.7;
+}
+.markdown-content blockquote p:last-child,.md-preview blockquote p:last-child {
+  margin: 0;
+}
+.markdown-content ul,.md-preview ul {
+  margin-bottom: 20px;
+}
+.markdown-content ul li,.md-preview ul li {
+  line-height: 30px;
+}
+.markdown-content img,.md-preview img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.markdown-content pre,.md-preview pre {
+  word-wrap: normal;
+  word-break: normal;
+  overflow: auto;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.markdown-content pre code,.md-preview pre code {
+  padding: 0;
+}
+.markdown-content code,.md-preview code {
+  padding: 2px 4px;
+  border: none;
+  white-space: pre;
+}
